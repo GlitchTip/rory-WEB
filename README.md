@@ -391,3 +391,220 @@ shopping({
 In [Bottender](https://github.com/Yoctol/bottender):
 
 ```js
+await context.sendFlex(
+  'Basic Shopping',
+  shopping({
+    image:
+      'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_c.png',
+    name: 'Arm Chair, White',
+    price: '$49.99',
+    isAvailable: true,
+  })
+);
+```
+
+- `image`: string. 
+- `name`: string. 
+- `price`: string. 
+- `isAvailable`: string. Default to `true`.
+
+#### social
+
+```js
+const { social } = require('line-flex-ui/showcase');
+
+social({
+  images: [
+    'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip7.jpg',
+    'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip8.jpg',
+    'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip9.jpg',
+  ],
+  profile:
+    'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip13.jpg',
+  username: 'brown_05',
+  text: 'I went to the Brown&Cony cafe in Tokyo and took a picture',
+  likeCount: 1140753,
+})
+```
+
+In [Bottender](https://github.com/Yoctol/bottender):
+
+```js
+await context.sendFlex(
+  'Basic Social',
+  social({
+    images: [
+      'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip7.jpg',
+      'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip8.jpg',
+      'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip9.jpg',
+    ],
+    profile:
+      'https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip13.jpg',
+    username: 'brown_05',
+    text: 'I went to the Brown&Cony cafe in Tokyo and took a picture',
+    likeCount: 1140753,
+  })
+);
+```
+
+- `images`: string[]. 
+- `profile`: string. 
+- `username`: string. 
+- `text`: string. 
+- `likeCount`: number.
+
+#### ticket
+
+```js
+const { ticket } = require('line-flex-ui/showcase');
+
+ticket({
+  image:
+    'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_3_movie.png',
+  name: "BROWN'S ADVENTURE\nIN MOVIE",
+  rating: 4.0,
+  date: 'Monday 25, 9:00PM',
+  place: '7 Floor, No.3',
+  seat: 'C Row, 18 Seat',
+  qrcode:
+    'https://scdn.line-apps.com/n/channel_devcenter/img/fx/linecorp_code_withborder.png',
+})
+```
+
+In [Bottender](https://github.com/Yoctol/bottender):
+
+```js
+await context.sendFlex(
+  'Basic Ticket',
+  ticket({
+    image:
+      'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_3_movie.png',
+    name: "BROWN'S ADVENTURE\nIN MOVIE",
+    rating: 4.0,
+    date: 'Monday 25, 9:00PM',
+    place: '7 Floor, No.3',
+    seat: 'C Row, 18 Seat',
+    qrcode:
+      'https://scdn.line-apps.com/n/channel_devcenter/img/fx/linecorp_code_withborder.png',
+  })
+);
+```
+
+- `image`: string.
+- `name`: string.
+- `rating`: number.
+- `date`: string.
+- `place`: string.
+- `seat`: string.
+- `qrcode`: string. Optional.
+
+#### todoApp
+
+```js
+const { todoApp } = require('line-flex-ui/showcase');
+
+todoApp({
+  status: 'In Progress',
+  percentage: 70,
+  text: 'Buy milk and lettuce before class',
+})
+```
+
+In [Bottender](https://github.com/Yoctol/bottender):
+
+```js
+await context.sendFlex(
+  'Basic TodoApp',
+  todoApp({
+    status: 'In Progress',
+    percentage: 70,
+    text: 'Buy milk and lettuce before class',
+  })
+);
+```
+
+- `status`: string. Default to `In Progress`. 
+- `percentage`: number. Default to `0`. 
+- `text`: string.
+
+#### transit
+
+```js
+const { transit } = require('line-flex-ui/showcase');
+
+transit({
+  from: 'Akihabara',
+  to: 'Shinjuku',
+  total: '1 hour',
+  items: [
+    transit.stop({
+      time: '20:30',
+      name: 'Akihabara',
+      color: '#ef454d',
+    }),
+    transit.path({
+      description: 'Walk 4min',
+    }),
+    transit.stop({
+      time: '20:34',
+      name: 'Ochanomizu',
+      color: '#6486e3',
+    }),
+    transit.path({
+      description: 'Metro 1hr',
+      color: '#6486e3',
+    }),
+    transit.stop({
+      time: '20:40',
+      name: 'Shinjuku',
+      color: '#6486e3',
+    }),
+  ],
+})
+```
+
+In [Bottender](https://github.com/Yoctol/bottender):
+
+```js
+await context.sendFlex(
+  'Basic Transit',
+  transit({
+    from: 'Akihabara',
+    to: 'Shinjuku',
+    total: '1 hour',
+    items: [
+      transit.stop({
+        time: '20:30',
+        name: 'Akihabara',
+        color: '#ef454d',
+      }),
+      transit.path({
+        description: 'Walk 4min',
+      }),
+      transit.stop({
+        time: '20:34',
+        name: 'Ochanomizu',
+        color: '#6486e3',
+      }),
+      transit.path({
+        description: 'Metro 1hr',
+        color: '#6486e3',
+      }),
+      transit.stop({
+        time: '20:40',
+        name: 'Shinjuku',
+        color: '#6486e3',
+      }),
+    ],
+  })
+);
+```
+
+- `from`: string.
+- `to`: string.
+- `total`: string.
+- `items`: (transit.stop | transit.path)[].
+
+## License
+
+MIT © [C. T. Lin](https://github.com/chentsulin/line-flex-ui)
