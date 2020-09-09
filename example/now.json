@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@now/node",
+      "config": {
+        "includeFiles": [
+          "bottender.config.js",
+          "index.js"
+        ],
+     
