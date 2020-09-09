@@ -40,4 +40,13 @@ of createServer.
 
 There are two default scripts you can run:
 
-### `npm r
+### `npm run dev`
+
+Run the bot in the development mode.\
+It will automatically restart the bot if there are any changes in `index.js`.\
+For more information, check [nodemon's repo](https://github.com/remy/nodemon)
+
+### `npm start`
+
+Run the bot without being monitored.\
+The bot won't be restarted when you change anything in `index.js`
