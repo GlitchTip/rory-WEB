@@ -559,3 +559,15 @@ module.exports = async function App() {
               color: '#6486e3',
             }),
             transit.stop({
+              time: '20:40',
+              name: 'Shinjuku',
+              color: '#6486e3',
+            }),
+          ],
+        }),
+        options
+      );
+    }),
+    text('*', Welcome),
+  ]);
+};
