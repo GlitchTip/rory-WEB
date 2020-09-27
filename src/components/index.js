@@ -1,0 +1,1 @@
+const buttonsTemplate = require('./buttons
