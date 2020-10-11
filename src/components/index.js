@@ -1,1 +1,7 @@
-const buttonsTemplate = require('./buttons
+const buttonsTemplate = require('./buttonsTemplate');
+const impressionTracker = require('./impressionTracker');
+
+module.exports = {
+  buttonsTemplate,
+  impressionTracker,
+};
