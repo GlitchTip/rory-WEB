@@ -126,3 +126,17 @@ function getRatingContent(rating) {
   const starIconGray = {
     type: 'icon',
     url: grayStar,
+  };
+
+  return [
+    ...new Array(starCount).fill(0).map(() => starIconGold),
+    ...new Array(5 - starCount).fill(0).map(() => starIconGray),
+    {
+      type: 'text',
+      text: rating.toFixed(1),
+      color: '#a9a9a9',
+    },
+  ];
+}
+
+module.exports = hotel;
