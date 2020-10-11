@@ -19,4 +19,25 @@ function receipt({
   title = 'RECEIPT',
   name,
   address,
- 
+  items,
+  cash,
+  paymentId,
+  formatPrice = defaultFormatPrice,
+} = {}) {
+  const itemContents = items.map(item => ({
+    type: 'box',
+    layout: 'horizontal',
+    contents: [
+      {
+        type: 'text',
+        text: item.name,
+        size: 'sm',
+        color: '#555555',
+        flex: 0,
+      },
+      {
+        type: 'text',
+        text: formatPrice(item.price),
+        size: 'sm',
+        color: '#111111',
+     
