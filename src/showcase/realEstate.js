@@ -151,3 +151,18 @@ function realEstate({
                   ],
                 },
               ],
+              paddingAll: '13px',
+              backgroundColor: '#ffffff1A',
+              cornerRadius: '2px',
+              margin: 'xl',
+            },
+          ],
+        },
+      ],
+      paddingAll: '20px',
+      backgroundColor: '#464F69',
+    },
+  };
+}
+
+module.exports = realEstate;
