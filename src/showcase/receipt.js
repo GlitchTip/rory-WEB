@@ -40,4 +40,26 @@ function receipt({
         text: formatPrice(item.price),
         size: 'sm',
         color: '#111111',
-     
+        align: 'end',
+      },
+    ],
+  }));
+
+  const totol =
+    Math.round(items.reduce((acc, item) => acc + item.price, 0) * 100) / 100;
+
+  return {
+    type: 'bubble',
+    body: {
+      type: 'box',
+      layout: 'vertical',
+      contents: [
+        {
+          type: 'text',
+          text: title,
+          weight: 'bold',
+          color: '#1DB446',
+          size: 'sm',
+        },
+        {
+          type:
