@@ -62,4 +62,25 @@ function receipt({
           size: 'sm',
         },
         {
-          type:
+          type: 'text',
+          text: name,
+          weight: 'bold',
+          size: 'xxl',
+          margin: 'md',
+        },
+        ...(address
+          ? [
+              {
+                type: 'text',
+                text: address,
+                size: 'xs',
+                color: '#aaaaaa',
+                wrap: true,
+              },
+            ]
+          : []),
+        {
+          type: 'separator',
+          margin: 'xxl',
+        },
+    
