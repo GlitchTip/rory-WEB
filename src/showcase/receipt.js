@@ -83,4 +83,21 @@ function receipt({
           type: 'separator',
           margin: 'xxl',
         },
-    
+        {
+          type: 'box',
+          layout: 'vertical',
+          margin: 'xxl',
+          spacing: 'sm',
+          contents: [
+            ...itemContents,
+            {
+              type: 'separator',
+              margin: 'xxl',
+            },
+            {
+              type: 'box',
+              layout: 'horizontal',
+              margin: 'xxl',
+              contents: [
+                {
+              
