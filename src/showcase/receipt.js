@@ -115,4 +115,18 @@ function receipt({
               ],
             },
             {
-              type: 'b
+              type: 'box',
+              layout: 'horizontal',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'TOTAL',
+                  size: 'sm',
+                  color: '#555555',
+                },
+                {
+                  type: 'text',
+                  text: formatPrice(totol),
+                  size: 'sm',
+                  color: '#111111',
+                  align:
