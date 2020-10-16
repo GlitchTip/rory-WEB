@@ -100,4 +100,19 @@ function receipt({
               margin: 'xxl',
               contents: [
                 {
-              
+                  type: 'text',
+                  text: 'ITEMS',
+                  size: 'sm',
+                  color: '#555555',
+                },
+                {
+                  type: 'text',
+                  text: String(items.length),
+                  size: 'sm',
+                  color: '#111111',
+                  align: 'end',
+                },
+              ],
+            },
+            {
+              type: 'b
