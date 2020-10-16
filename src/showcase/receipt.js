@@ -129,4 +129,21 @@ function receipt({
                   text: formatPrice(totol),
                   size: 'sm',
                   color: '#111111',
-                  align:
+                  align: 'end',
+                },
+              ],
+            },
+            {
+              type: 'box',
+              layout: 'horizontal',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'CASH',
+                  size: 'sm',
+                  color: '#555555',
+                },
+                {
+                  type: 'text',
+                  text: formatPrice(cash),
+              
