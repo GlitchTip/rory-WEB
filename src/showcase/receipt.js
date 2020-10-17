@@ -146,4 +146,20 @@ function receipt({
                 {
                   type: 'text',
                   text: formatPrice(cash),
-              
+                  size: 'sm',
+                  color: '#111111',
+                  align: 'end',
+                },
+              ],
+            },
+            {
+              type: 'box',
+              layout: 'horizontal',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'CHANGE',
+                  size: 'sm',
+                  color: '#555555',
+                },
+       
