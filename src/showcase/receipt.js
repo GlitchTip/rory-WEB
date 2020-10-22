@@ -194,4 +194,26 @@ function receipt({
                   {
                     type: 'text',
                     text: paymentId,
-                    color
+                    color: '#aaaaaa',
+                    size: 'xs',
+                    align: 'end',
+                  },
+                ],
+              },
+            ]
+          : []),
+      ],
+    },
+    styles: {
+      footer: {
+        separator: true,
+      },
+    },
+  };
+}
+
+function defaultFormatPrice(price) {
+  return `$${price.toFixed(2)}`;
+}
+
+module.exports = receipt;
