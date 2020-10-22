@@ -162,4 +162,22 @@ function receipt({
                   size: 'sm',
                   color: '#555555',
                 },
-       
+                {
+                  type: 'text',
+                  text: formatPrice(cash - totol),
+                  size: 'sm',
+                  color: '#111111',
+                  align: 'end',
+                },
+              ],
+            },
+          ],
+        },
+        ...(paymentId
+          ? [
+              {
+                type: 'separator',
+                margin: 'xxl',
+              },
+              {
+   
