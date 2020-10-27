@@ -15,4 +15,22 @@
  * })
  * ```
  */
-function social({ images, profile, username, text, likeCount })
+function social({ images, profile, username, text, likeCount }) {
+  return {
+    type: 'bubble',
+    body: {
+      type: 'box',
+      layout: 'vertical',
+      contents: [
+        {
+          type: 'box',
+          layout: 'horizontal',
+          contents: [
+            {
+              type: 'image',
+              url: images[0],
+              size: '5xl',
+              aspectMode: 'cover',
+              aspectRatio: '150:196',
+              gravity: 'center',
+  
