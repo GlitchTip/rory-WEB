@@ -33,4 +33,20 @@ function social({ images, profile, username, text, likeCount }) {
               aspectMode: 'cover',
               aspectRatio: '150:196',
               gravity: 'center',
-  
+              flex: 1,
+            },
+            {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+                {
+                  type: 'image',
+                  url: images[1],
+                  size: 'full',
+                  aspectMode: 'cover',
+                  aspectRatio: '150:98',
+                  gravity: 'center',
+                },
+                {
+                  type: 'image',
+                  url: image
