@@ -49,4 +49,22 @@ function social({ images, profile, username, text, likeCount }) {
                 },
                 {
                   type: 'image',
-                  url: image
+                  url: images[2],
+                  size: 'full',
+                  aspectMode: 'cover',
+                  aspectRatio: '150:98',
+                  gravity: 'center',
+                },
+              ],
+              flex: 1,
+            },
+          ],
+        },
+        {
+          type: 'box',
+          layout: 'horizontal',
+          contents: [
+            {
+              type: 'box',
+              layout: 'vertical',
+              cont
