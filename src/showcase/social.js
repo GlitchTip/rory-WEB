@@ -67,4 +67,20 @@ function social({ images, profile, username, text, likeCount }) {
             {
               type: 'box',
               layout: 'vertical',
-              cont
+              contents: [
+                {
+                  type: 'image',
+                  url: profile,
+                  aspectMode: 'cover',
+                  size: 'full',
+                },
+              ],
+              cornerRadius: '100px',
+              width: '72px',
+              height: '72px',
+            },
+            {
+              type: 'box',
+              layout: 'vertical',
+              contents: [
+ 
