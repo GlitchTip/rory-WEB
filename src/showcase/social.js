@@ -83,4 +83,18 @@ function social({ images, profile, username, text, likeCount }) {
               type: 'box',
               layout: 'vertical',
               contents: [
- 
+                {
+                  type: 'text',
+                  contents: [
+                    {
+                      type: 'span',
+                      text: username,
+                      weight: 'bold',
+                      color: '#000000',
+                    },
+                    {
+                      type: 'span',
+                      text: '     ',
+                    },
+                    {
+               
