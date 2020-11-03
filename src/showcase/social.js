@@ -97,4 +97,18 @@ function social({ images, profile, username, text, likeCount }) {
                       text: '     ',
                     },
                     {
-               
+                      type: 'span',
+                      text,
+                    },
+                  ],
+                  size: 'sm',
+                  wrap: true,
+                },
+                {
+                  type: 'box',
+                  layout: 'baseline',
+                  contents: [
+                    {
+                      type: 'text',
+                      text: `${String(likeCount)
+              
