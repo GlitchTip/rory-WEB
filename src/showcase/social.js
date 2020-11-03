@@ -111,4 +111,15 @@ function social({ images, profile, username, text, likeCount }) {
                     {
                       type: 'text',
                       text: `${String(likeCount)
-              
+                        .split('')
+                        .reverse()
+                        .reduce(
+                          (acc, num) =>
+                            acc.length === 3 || acc.indexOf(',') === 3
+                              ? num + ',' + acc
+                              : num + acc,
+                          ''
+                        )} Likes`,
+                      size: 'sm',
+                      color: '#bcbcbc',
+ 
