@@ -40,4 +40,22 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
           gravity: 'center',
           size: 'xl',
         },
-    
+        {
+          type: 'box',
+          layout: 'baseline',
+          margin: 'md',
+          contents: getRatingContent(rating),
+        },
+        {
+          type: 'box',
+          layout: 'vertical',
+          margin: 'lg',
+          spacing: 'sm',
+          contents: [
+            {
+              type: 'box',
+              layout: 'baseline',
+              spacing: 'sm',
+              contents: [
+                {
+             
