@@ -19,4 +19,25 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
     hero: {
       type: 'image',
       url: image,
-      size:
+      size: 'full',
+      aspectRatio: '20:13',
+      aspectMode: 'cover',
+      action: {
+        type: 'uri',
+        uri: 'http://linecorp.com/',
+      },
+    },
+    body: {
+      type: 'box',
+      layout: 'vertical',
+      spacing: 'md',
+      contents: [
+        {
+          type: 'text',
+          text: name,
+          wrap: true,
+          weight: 'bold',
+          gravity: 'center',
+          size: 'xl',
+        },
+    
