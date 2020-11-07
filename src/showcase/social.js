@@ -122,4 +122,21 @@ function social({ images, profile, username, text, likeCount }) {
                         )} Likes`,
                       size: 'sm',
                       color: '#bcbcbc',
- 
+                    },
+                  ],
+                  spacing: 'sm',
+                  margin: 'md',
+                },
+              ],
+            },
+          ],
+          spacing: 'xl',
+          paddingAll: '20px',
+        },
+      ],
+      paddingAll: '0px',
+    },
+  };
+}
+
+module.exports = social;
