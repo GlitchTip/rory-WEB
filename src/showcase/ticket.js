@@ -58,4 +58,22 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
               spacing: 'sm',
               contents: [
                 {
-             
+                  type: 'text',
+                  text: 'Date',
+                  color: '#aaaaaa',
+                  size: 'sm',
+                  flex: 1,
+                },
+                {
+                  type: 'text',
+                  text: date,
+                  wrap: true,
+                  size: 'sm',
+                  color: '#666666',
+                  flex: 4,
+                },
+              ],
+            },
+            {
+              type: 'box',
+              l
