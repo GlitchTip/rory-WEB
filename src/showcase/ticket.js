@@ -91,4 +91,21 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
                   text: place,
                   wrap: true,
                   color: '#666666',
-       
+                  size: 'sm',
+                  flex: 4,
+                },
+              ],
+            },
+            {
+              type: 'box',
+              layout: 'baseline',
+              spacing: 'sm',
+              contents: [
+                {
+                  type: 'text',
+                  text: 'Seat',
+                  color: '#aaaaaa',
+                  size: 'sm',
+                  flex: 1,
+                },
+         
