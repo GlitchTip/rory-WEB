@@ -140,4 +140,21 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
                     type: 'text',
                     text:
                       'You can enter the theater by using this code instead of a ticket',
-         
+                    color: '#aaaaaa',
+                    wrap: true,
+                    margin: 'xxl',
+                    size: 'xs',
+                  },
+                ],
+              },
+            ]
+          : []),
+      ],
+    },
+  };
+}
+
+const goldStar =
+  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png';
+const grayStar =
+  'https://scdn.line-apps.com/n/channel_devcenter/i
