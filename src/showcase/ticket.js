@@ -126,4 +126,18 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
                 type: 'box',
                 layout: 'vertical',
                 margin: 'xxl',
-           
+                contents: [
+                  {
+                    type: 'spacer',
+                  },
+                  {
+                    type: 'image',
+                    url: qrcode,
+                    aspectMode: 'cover',
+                    size: 'xl',
+                  },
+                  {
+                    type: 'text',
+                    text:
+                      'You can enter the theater by using this code instead of a ticket',
+         
