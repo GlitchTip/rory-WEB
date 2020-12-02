@@ -157,4 +157,21 @@ function ticket({ image, name, rating, date, place, seat, qrcode }) {
 const goldStar =
   'https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png';
 const grayStar =
-  'https://scdn.line-apps.com/n/channel_devcenter/i
+  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png';
+
+function getRatingContent(rating) {
+  const starCount = Math.floor(rating);
+  const starIconGold = {
+    type: 'icon',
+    size: 'sm',
+    url: goldStar,
+  };
+  const starIconGray = {
+    type: 'icon',
+    size: 'sm',
+    url: grayStar,
+  };
+
+  return [
+    ...new Array(starCount).fill(0).map(() => starIconGold),
+    ...new Array(5 - starCount).fill(0).map(() => starIconG
