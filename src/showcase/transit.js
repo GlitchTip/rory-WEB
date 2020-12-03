@@ -157,3 +157,88 @@ function stop({ time, name, color }) {
       },
       {
         type: 'text',
+        text: name,
+        gravity: 'center',
+        flex: 4,
+        size: 'sm',
+      },
+    ],
+    spacing: 'lg',
+    cornerRadius: '30px',
+  };
+}
+
+/**
+ * @example
+ *
+ * ```js
+ * path({
+ *   description: 'Walk 4min',
+ *   color: '#b7b7b7',
+ * })
+ * ```
+ */
+function path({ description, color = '#b7b7b7' }) {
+  return {
+    type: 'box',
+    layout: 'horizontal',
+    contents: [
+      {
+        type: 'box',
+        layout: 'baseline',
+        contents: [
+          {
+            type: 'filler',
+          },
+        ],
+        flex: 1,
+      },
+      {
+        type: 'box',
+        layout: 'vertical',
+        contents: [
+          {
+            type: 'box',
+            layout: 'horizontal',
+            contents: [
+              {
+                type: 'filler',
+              },
+              {
+                type: 'box',
+                layout: 'vertical',
+                contents: [
+                  {
+                    type: 'filler',
+                  },
+                ],
+                width: '2px',
+                backgroundColor: color,
+              },
+              {
+                type: 'filler',
+              },
+            ],
+            flex: 1,
+          },
+        ],
+        width: '12px',
+      },
+      {
+        type: 'text',
+        text: description,
+        gravity: 'center',
+        flex: 4,
+        size: 'xs',
+        color: '#8c8c8c',
+      },
+    ],
+    spacing: 'lg',
+    height: '64px',
+  };
+}
+
+transit.stop = stop;
+transit.path = path;
+
+module.exports = transit;
