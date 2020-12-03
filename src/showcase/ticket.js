@@ -174,4 +174,16 @@ function getRatingContent(rating) {
 
   return [
     ...new Array(starCount).fill(0).map(() => starIconGold),
-    ...new Array(5 - starCount).fill(0).map(() => starIconG
+    ...new Array(5 - starCount).fill(0).map(() => starIconGray),
+    {
+      type: 'text',
+      text: rating.toFixed(1),
+      size: 'sm',
+      color: '#999999',
+      margin: 'md',
+      flex: 0,
+    },
+  ];
+}
+
+module.exports = ticket;
