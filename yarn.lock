@@ -554,4 +554,13 @@
 
 "@types/istanbul-reports@^1.1.1":
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@types/istanbul-reports/-/istanbul-reports-1.1.1.tgz#7a8cbf6a406f36c8ad
+  resolved "https://registry.yarnpkg.com/@types/istanbul-reports/-/istanbul-reports-1.1.1.tgz#7a8cbf6a406f36c8add871625b278eaf0b0d255a"
+  integrity sha512-UpYjBi8xefVChsCoBpKShdxTllC9pwISirfoZsUa2AAdQg/Jd2KQGtSbw+ya7GPo7x/wAPlH6JBhKhAsXUEZNA==
+  dependencies:
+    "@types/istanbul-lib-coverage" "*"
+    "@types/istanbul-lib-report" "*"
+
+"@types/jfs@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@types/jfs/-/jfs-0.2.3.tgz#9aa5ccf6eadefdb1e2fb7a55dfc25edf65fdc026"
+  integrity sha512-3nUANvie7NRZ
