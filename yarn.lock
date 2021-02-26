@@ -563,4 +563,13 @@
 "@types/jfs@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@types/jfs/-/jfs-0.2.3.tgz#9aa5ccf6eadefdb1e2fb7a55dfc25edf65fdc026"
-  integrity sha512-3nUANvie7NRZ
+  integrity sha512-3nUANvie7NRZyNO2UBczDAfRq7sdjPtSZqSZPlu0Z4AMaHPigAJyGyfMYLElUBFXK999pzes1MhJhgTUJwAUtA==
+
+"@types/jsonfile@^5.0.0":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@types/jsonfile/-/jsonfile-5.0.1.tgz#bffb94666461253e8d7e882775ee02e99870b25b"
+  integrity sha512-NHZ+FcLQbs7DpQvWTMTa5pvkSzeWGswCA3reWfADKkqKBI4nf6Pcml7Y8IeRh6ebxXeU+C6AgTa1H3Mpy8TAVg==
+  dependencies:
+    "@types/node" "*"
+
+"@types/lodash@^4.14.149", "@ty
