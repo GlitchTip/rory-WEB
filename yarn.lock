@@ -796,4 +796,17 @@ ansi-bgblue@^0.1.1:
 ansi-bgcyan@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ansi-bgcyan/-/ansi-bgcyan-0.1.1.tgz#58489425600bde9f5507068dd969ebfdb50fe768"
-  integrity sha1-WEiUJWAL3p9VBwaN2Wnr/bUP
+  integrity sha1-WEiUJWAL3p9VBwaN2Wnr/bUP52g=
+  dependencies:
+    ansi-wrap "0.1.0"
+
+ansi-bggreen@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-bggreen/-/ansi-bggreen-0.1.1.tgz#4e3191248529943f4321e96bf131d1c13816af49"
+  integrity sha1-TjGRJIUplD9DIelr8THRwTgWr0k=
+  dependencies:
+    ansi-wrap "0.1.0"
+
+ansi-bgmagenta@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-bgmagenta/-/ansi-bgmagenta-0.1.1.tgz#9b28432c
