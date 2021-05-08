@@ -946,4 +946,17 @@ ansi-hidden@^0.1.1:
 ansi-inverse@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ansi-inverse/-/ansi-inverse-0.1.1.tgz#b6af45826fe826bfb528a6c79885794355ccd269"
-  integrity sha1-tq9Fgm/oJr+1KKbHmIV5Q1
+  integrity sha1-tq9Fgm/oJr+1KKbHmIV5Q1XM0mk=
+  dependencies:
+    ansi-wrap "0.1.0"
+
+ansi-italic@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-italic/-/ansi-italic-0.1.1.tgz#104743463f625c142a036739cf85eda688986f23"
+  integrity sha1-EEdDRj9iXBQqA2c5z4XtpoiYbyM=
+  dependencies:
+    ansi-wrap "0.1.0"
+
+ansi-magenta@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-magenta/-/ansi-magenta-0.1.1.tgz#063b5ba16fb3f23e1cfda
