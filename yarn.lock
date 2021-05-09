@@ -988,4 +988,16 @@ ansi-regex@^5.0.0:
 
 ansi-reset@^0.1.1:
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/ansi-reset/-/ansi-reset-0.1.1.tgz#e7e71292c3c7d
+  resolved "https://registry.yarnpkg.com/ansi-reset/-/ansi-reset-0.1.1.tgz#e7e71292c3c7ddcd4d62ef4a6c7c05980911c3b7"
+  integrity sha1-5+cSksPH3c1NYu9KbHwFmAkRw7c=
+  dependencies:
+    ansi-wrap "0.1.0"
+
+ansi-strikethrough@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-strikethrough/-/ansi-strikethrough-0.1.1.tgz#d84877140b2cff07d1c93ebce69904f68885e568"
+  integrity sha1-2Eh3FAss/wfRyT685pkE9oiF5Wg=
+  dependencies:
+    ansi-wrap "0.1.0"
+
+ansi-styles@^
