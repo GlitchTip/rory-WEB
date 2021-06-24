@@ -1082,4 +1082,16 @@ arr-diff@^4.0.0:
 
 arr-flatten@^1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.1.0.tgz#36048bbff4e7b47e13
+  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.1.0.tgz#36048bbff4e7b47e136644316c99669ea5ae91f1"
+  integrity sha512-L3hKV5R/p5o81R7O02IGnwpDmkp6E982XhtbuwSe3O4qOtMMMtodicASA1Cny2U+aCXcNpml+m4dPsvsJ3jatg==
+
+arr-swap@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/arr-swap/-/arr-swap-1.0.1.tgz#147590ed65fc815bc07fef0997c2e5823d643534"
+  integrity sha1-FHWQ7WX8gVvAf+8Jl8Llgj1kNTQ=
+  dependencies:
+    is-number "^3.0.0"
+
+arr-union@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpk
