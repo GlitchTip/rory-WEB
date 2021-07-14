@@ -1240,4 +1240,18 @@ base@^0.11.1:
     cache-base "^1.0.1"
     class-utils "^0.3.5"
     component-emitter "^1.2.1"
-    
+    define-property "^1.0.0"
+    isobject "^3.0.1"
+    mixin-deep "^1.2.0"
+    pascalcase "^0.1.1"
+
+bcrypt-pbkdf@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
+  integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
+  dependencies:
+    tweetnacl "^0.14.3"
+
+binary-extensions@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarn
