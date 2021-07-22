@@ -1300,4 +1300,17 @@ body-parser@1.20.1, body-parser@^1.19.0:
 
 bottender@^1.4.10:
   version "1.4.10"
-  resolved "https://registry.yarnpkg.com/bottender/-/bottender-1
+  resolved "https://registry.yarnpkg.com/bottender/-/bottender-1.4.10.tgz#b76d0decf0cbef37b976b4e97a0660c19063ddb1"
+  integrity sha512-LC/HVdK8+dZXeEh1/seBheOAfDPwDLYH/7yvc0vamw1BxP80vPPOIG+RWS1zWU7U1kT56k4cD1KpBNzfuoH9YQ==
+  dependencies:
+    "@bottender/express" "^1.4.0"
+    "@hapi/joi" "^15.1.1"
+    "@slack/rtm-api" "^5.0.3"
+    "@types/debug" "^4.1.5"
+    "@types/express" "^4.17.2"
+    "@types/fs-extra" "^8.1.0"
+    "@types/hapi__joi" "^15.0.4"
+    "@types/inquirer" "^6.5.0"
+    "@types/invariant" "^2.2.31"
+    "@types/ioredis" "^4.14.8"
+    "@types/jfs
