@@ -1643,4 +1643,15 @@ cliui@^5.0.0:
 clone-deep@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/clone-deep/-/clone-deep-1.0.0.tgz#b2f354444b5d4a0ce58faca337ef34da2b14a6c7"
-  integrity sha512-hmJRX8x1QOJVV+GUjOBzi6iauhPqc9hIF6xitWRBbiPZOBb6vGo/mDRIK9P
+  integrity sha512-hmJRX8x1QOJVV+GUjOBzi6iauhPqc9hIF6xitWRBbiPZOBb6vGo/mDRIK9P74RTKSQK7AE8B0DDWY/vpRrPmQw==
+  dependencies:
+    for-own "^1.0.0"
+    is-plain-object "^2.0.4"
+    kind-of "^5.0.0"
+    shallow-clone "^1.0.0"
+
+clone-deep@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/clone-deep/-/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
+  integrity sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ==
+  dependencies:
