@@ -3677,4 +3677,16 @@ jest@^24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-jfs@^0.
+jfs@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/jfs/-/jfs-0.3.0.tgz#5abce44643b0d0d2d95164396868f22bb1558b04"
+  integrity sha1-WrzkRkOw0NLZUWQ5aGjyK7FViwQ=
+  dependencies:
+    async "~2.5.0"
+    clone "~2.1.1"
+    mkdirp "~0.5.1"
+    uuid "^3.1.0"
+
+"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a28705
