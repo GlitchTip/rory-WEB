@@ -3927,4 +3927,20 @@ log-ok@^0.1.1:
   integrity sha1-vqPdNqzQuKckDXhza1uXxlREozQ=
   dependencies:
     ansi-green "^0.1.1"
-   
+    success-symbol "^0.1.0"
+
+log-utils@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/log-utils/-/log-utils-0.2.1.tgz#a4c217a0dd9a50515d9b920206091ab3d4e031cf"
+  integrity sha1-pMIXoN2aUFFdm5ICBgkas9TgMc8=
+  dependencies:
+    ansi-colors "^0.2.0"
+    error-symbol "^0.1.0"
+    info-symbol "^0.1.0"
+    log-ok "^0.1.1"
+    success-symbol "^0.1.0"
+    time-stamp "^1.0.1"
+    warning-symbol "^0.1.0"
+
+loose-envify@^1.0.0:
+  version "1.4
