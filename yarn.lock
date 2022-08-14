@@ -4035,4 +4035,18 @@ merge-stream@^2.0.0:
 messaging-api-common@1.0.0-beta.16:
   version "1.0.0-beta.16"
   resolved "https://registry.yarnpkg.com/messaging-api-common/-/messaging-api-common-1.0.0-beta.16.tgz#e07ce89556ed9976ce4b809c817d9fa4cca5f9a2"
-  integrity sha512-QoUnHLa4akSnkw3jjrYjJPQwzxa65l4xR82UGABtFOxkPje6nzyv7edXHwpVEXohdp+2A6AHrKXK
+  integrity sha512-QoUnHLa4akSnkw3jjrYjJPQwzxa65l4xR82UGABtFOxkPje6nzyv7edXHwpVEXohdp+2A6AHrKXK2ok389uIoQ==
+  dependencies:
+    axios "^0.19.2"
+    camel-case "^4.1.1"
+    debug "^4.1.1"
+    lodash "^4.17.15"
+    map-obj "^4.1.0"
+    pascal-case "^3.1.1"
+    snake-case "^3.0.3"
+    url-join "^4.0.1"
+
+messaging-api-common@^1.0.0-beta.16:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/messaging-api-common/-/messaging-api-common-1.0.0.tgz#4a152ad6f59393ee541cd463933d560eca33b785"
+  integrity sha512
