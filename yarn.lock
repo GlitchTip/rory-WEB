@@ -4049,4 +4049,18 @@ messaging-api-common@1.0.0-beta.16:
 messaging-api-common@^1.0.0-beta.16:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/messaging-api-common/-/messaging-api-common-1.0.0.tgz#4a152ad6f59393ee541cd463933d560eca33b785"
-  integrity sha512
+  integrity sha512-4bHqgnzrR2F97V+WnxVKS6EmjElkURa9jhy0/Tv7B+Xmcl3BDEW2krFpr5LfJDwFFiaDqj8Poel81hTOoWO/Lw==
+  dependencies:
+    "@types/debug" "^4.1.5"
+    "@types/lodash" "^4.14.156"
+    "@types/url-join" "^4.0.0"
+    axios "^0.19.2"
+    camel-case "^4.1.1"
+    debug "^4.1.1"
+    lodash "^4.17.15"
+    map-obj "^4.1.0"
+    pascal-case "^3.1.1"
+    snake-case "^3.0.3"
+    url-join "^4.0.1"
+
+messaging-a
