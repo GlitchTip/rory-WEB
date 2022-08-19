@@ -4072,4 +4072,13 @@ messaging-api-line@1.0.0-beta.20:
     axios-error "^1.0.0-beta.16"
     image-type "^4.1.0"
     invariant "^2.2.4"
-    messaging-api
+    messaging-api-common "^1.0.0-beta.16"
+    warning "^4.0.3"
+
+messaging-api-messenger@1.0.0-beta.18:
+  version "1.0.0-beta.18"
+  resolved "https://registry.yarnpkg.com/messaging-api-messenger/-/messaging-api-messenger-1.0.0-beta.18.tgz#50ef461dc3743712d7bb459bf5c0d6e1893b342e"
+  integrity sha512-2epVMxyGReG/mmKn0ugYEEZr6sHrdtz7Np4yRs855zqTOqzNzLYvfDwpEUwNbbGe0serDsyt8s4s2tbr5FJPbg==
+  dependencies:
+    append-query "^2.1.0"
+    axios "^0.19.
