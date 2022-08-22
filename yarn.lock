@@ -4102,4 +4102,14 @@ messaging-api-slack@1.0.0-beta.16:
 messaging-api-telegram@1.0.0-beta.16:
   version "1.0.0-beta.16"
   resolved "https://registry.yarnpkg.com/messaging-api-telegram/-/messaging-api-telegram-1.0.0-beta.16.tgz#9091df3838a35ea0d735dc48814eacc490e77439"
-  integrity sha512-R9lWthXQrJw6ySEDyM5oOoBHCwERrOc1YriU
+  integrity sha512-R9lWthXQrJw6ySEDyM5oOoBHCwERrOc1YriUAwCq1XD7yqBQae6lMPucJqa0jj2Rzcua4ZrOOQrKqvHJKV7Pog==
+  dependencies:
+    axios "^0.19.2"
+    axios-error "^1.0.0-beta.16"
+    lodash "^4.17.15"
+    messaging-api-common "^1.0.0-beta.16"
+
+messaging-api-viber@1.0.0-beta.16:
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/messaging-api-viber/-/messaging-api-viber-1.0.0-beta.16.tgz#c382ae98170729cd2bd2b15f0c92b495074b671b"
+  integrity sha512-Gp+MTA3dz/EIOn50NED08bT9kkD4IC/fTDF82dO/U
