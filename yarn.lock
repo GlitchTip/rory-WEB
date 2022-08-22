@@ -4092,4 +4092,14 @@ messaging-api-messenger@1.0.0-beta.18:
 messaging-api-slack@1.0.0-beta.16:
   version "1.0.0-beta.16"
   resolved "https://registry.yarnpkg.com/messaging-api-slack/-/messaging-api-slack-1.0.0-beta.16.tgz#0a509b807d16771e2a639f893fbec7d1a4cd0280"
-  integrity sha512-bu3Nyva9ZLWiSRMnGOasBk4likAvNWU4ZICwwD2if11Cb0emN3pQhtr9
+  integrity sha512-bu3Nyva9ZLWiSRMnGOasBk4likAvNWU4ZICwwD2if11Cb0emN3pQhtr9DBPk6/FXi/25PQ+f/ZNeB9Y0pz5+qQ==
+  dependencies:
+    axios "^0.19.2"
+    axios-error "^1.0.0-beta.16"
+    lodash "^4.17.15"
+    messaging-api-common "^1.0.0-beta.16"
+
+messaging-api-telegram@1.0.0-beta.16:
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/messaging-api-telegram/-/messaging-api-telegram-1.0.0-beta.16.tgz#9091df3838a35ea0d735dc48814eacc490e77439"
+  integrity sha512-R9lWthXQrJw6ySEDyM5oOoBHCwERrOc1YriU
