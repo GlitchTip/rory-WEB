@@ -4112,4 +4112,14 @@ messaging-api-telegram@1.0.0-beta.16:
 messaging-api-viber@1.0.0-beta.16:
   version "1.0.0-beta.16"
   resolved "https://registry.yarnpkg.com/messaging-api-viber/-/messaging-api-viber-1.0.0-beta.16.tgz#c382ae98170729cd2bd2b15f0c92b495074b671b"
-  integrity sha512-Gp+MTA3dz/EIOn50NED08bT9kkD4IC/fTDF82dO/U
+  integrity sha512-Gp+MTA3dz/EIOn50NED08bT9kkD4IC/fTDF82dO/UIo57PafCIogP2Mtqooft6gtKMM5PR0Tlcki6rEj7mywtg==
+  dependencies:
+    axios "^0.19.2"
+    axios-error "^1.0.0-beta.16"
+    lodash "^4.17.15"
+    messaging-api-common "^1.0.0-beta.16"
+
+messenger-batch@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/messenger-batch/-/messenger-batch-0.3.1.tgz#045bc5d9d02fe595c9f54d3e4314326a85d71084"
+  integrity sha512-mA0QDOOB0WASvJxu32A7medVGJpuY1+IKDzQd7ipbsJS5lwN5cvP3QJWOgpv
