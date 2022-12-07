@@ -4828,4 +4828,19 @@ prompt-choices@^4.0.5:
     choices-separator "^2.0.0"
     clone-deep "^4.0.0"
     collection-visit "^1.0.0"
-    define-propert
+    define-property "^2.0.2"
+    is-number "^6.0.0"
+    kind-of "^6.0.2"
+    koalas "^1.0.2"
+    log-utils "^0.2.1"
+    pointer-symbol "^1.0.0"
+    radio-symbol "^2.0.0"
+    set-value "^3.0.0"
+    strip-color "^0.1.0"
+    terminal-paginator "^2.0.2"
+    toggle-array "^1.0.1"
+
+prompt-confirm@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/prompt-confirm/-/prompt-confirm-2.0.4.tgz#42c06907333e876f2ae8867281e0b9521a4796ca"
+  in
