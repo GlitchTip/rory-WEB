@@ -4843,4 +4843,12 @@ prompt-choices@^4.0.5:
 prompt-confirm@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/prompt-confirm/-/prompt-confirm-2.0.4.tgz#42c06907333e876f2ae8867281e0b9521a4796ca"
-  in
+  integrity sha512-X5lzbC8/kMNHdPOqQPfMKpH4VV2f7v2OTRJoN69ZYBirSwTeQaf9ZhmzPEO9ybMA0YV2Pha5MV27u2/U4ahWfg==
+  dependencies:
+    ansi-cyan "^0.1.1"
+    prompt-base "^4.0.1"
+
+prompt-question@^5.0.1:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/prompt-question/-/prompt-question-5.0.2.tgz#81a479f38f0bafecc758e5d6f7bc586e599610b3"
+  integrity sha512-wreaLbbu8f5+7zXds199uiT11Ojp59Z4iBi6hONlSLtsKGTvL2UY
