@@ -5921,4 +5921,14 @@ to-regex@^3.0.1, to-regex@^3.0.2:
 
 toggle-array@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/toggle-array/-/toggle-array-1.0.1.tgz#cbf5840792bd50
+  resolved "https://registry.yarnpkg.com/toggle-array/-/toggle-array-1.0.1.tgz#cbf5840792bd5097f33117ae824c932affe87d58"
+  integrity sha1-y/WEB5K9UJfzMReugkyTKv/ofVg=
+  dependencies:
+    isobject "^3.0.0"
+
+toidentifier@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
+  integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
+
+token-t
